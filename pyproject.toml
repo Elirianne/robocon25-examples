@@ -1,0 +1,18 @@
+[tool.robotidy]
+spacecount = 2
+indent = 4
+line_length = 140
+configure = [
+    "AlignSettingsSection: enabled = False",
+    "AlignVariablesSection: enabled = False",
+    "MergeAndOrderSections:order=comments,settings,variables,keywords,testcases",
+    "NormalizeAssignments: equal_sign_type = remove",
+    "NormalizeAssignments: equal_sign_type_variables = remove",
+    "NormalizeSeparators: skip_sections = comments,settings,tasks",
+    "NormalizeNewLines: section_lines = 1",
+    "OrderSettingsSection: imports_order = library,resource,variables",
+    "InlineIf: line_length = 140",
+    "NormalizeTags: normalize_case = False",
+    "GenerateDocumentation: enabled = True",
+    "GenerateDocumentation: doc_template = template.jinja"
+]

@@ -1,0 +1,7 @@
+output-dir = "Results"
+default-profiles = "basic"
+
+[profiles.basic]
+
+[profiles.listener]
+listeners = { "Tools/01_Listener.py" = [] }

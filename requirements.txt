@@ -1,0 +1,7 @@
+lxml==5.1.1
+robotframework==7.0.1
+robotframework-browser==18.9.1
+robotframework-robocop==5.5.0
+robotframework-tidy==4.14.0
+pydocstyle==6.3.0
+pylint==3.3.1

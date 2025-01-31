@@ -1,0 +1,8 @@
+{{ formatting.separator }}Keyword description.{% if keyword.arguments|length > 0 %}\n\n
+{{ formatting.cont_indent }}Arguments:
+{%- for arg in keyword.arguments %}
+{{ formatting.cont_indent }}- ``{{ arg.name|trim('$@&{}') }}``: argument description{% endfor %}{% endif -%}
+{% if keyword.returns|length > 0 %}
+{{ formatting.cont_indent }}Returns:
+{%- for value in keyword.returns %}
+{{ formatting.cont_indent }}- return value description{% endfor %}{% endif -%}

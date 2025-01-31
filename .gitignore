@@ -1,0 +1,17 @@
+.DS_Store
+.project
+.settings
+.venv
+*.egg-info
+*.html
+*.log
+*.orig
+*.png
+*.pyc
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+/libspecs/
+Results
+playwright-log.txt
