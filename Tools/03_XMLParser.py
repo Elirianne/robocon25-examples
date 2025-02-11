@@ -1,6 +1,6 @@
 from lxml import etree
 
-tree = etree.parse('output.xml')
+tree = etree.parse('Results/output.xml')
 root = tree.getroot()
 
 for keyword in root.findall('.//test/kw'):
@@ -10,4 +10,4 @@ for keyword in root.findall('.//test/kw'):
         if child.tag not in ['doc','arg','status','msg']:
             keyword.remove(child)
 
-tree.write('flattened_output.xml')
+tree.write('Results/flattened_output.xml')

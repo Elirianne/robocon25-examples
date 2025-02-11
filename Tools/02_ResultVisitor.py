@@ -9,8 +9,6 @@ class MyVisitor(ResultVisitor):
             data.body = []
 
 # Script actions:
-result = ExecutionResult('output.xml')
+result = ExecutionResult('Results/output.xml')
 result.visit(MyVisitor())
-result.save('flattened_output.xml')
-
-
+result.save('Results/flattened_output.xml')
