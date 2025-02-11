@@ -2,7 +2,7 @@
 
 This repository contains simple showcases of flattening the top level keywords of a test case using the Robot Framework API's `Listener` and the `Result Visitor`, as well as a third-party library for XML parsing.
 
-> [!INFO]
+> [!NOTE]
 > Examples are simplified for the purpose of the presentation at the RoboCon 2025 conference
 > and should not be considered a a final or recommended solution.
 
@@ -39,8 +39,8 @@ After the inicialization of `rfbrowser` is done, you should be set to run the ex
 
 You can run the flattening examples in any order by running the following commands from the repository root folder.
 
-> [!INFO]
-> Note that examples may contain additional commands with rebot for the purpose of generating
+> [!NOTE]
+> Examples may contain additional commands with rebot for the purpose of generating
 > a new `log.html` where the results of the flattening can be easily observed.
 
 ### 3.1 Listener
