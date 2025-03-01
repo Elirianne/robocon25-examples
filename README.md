@@ -1,10 +1,10 @@
 # Flattening Top-Level Keywords with Robot Framework API
 
-This repository contains simple showcases of flattening the top level keywords of a test case using the Robot Framework API's `Listener` and the `Result Visitor`, as well as a third-party library for XML parsing.
+This repository contains simple showcases of flattening the top level keywords of a test case using the Robot Framework API's `Listener` and the `Result Visitor`, as well as a third-party library for parsing XML.
 
 > [!NOTE]
 > Examples are simplified for the purpose of the presentation at the RoboCon 2025 conference
-> and should not be considered a a final or recommended solution.
+> and should not be considered as final or recommended solutions.
 
 ## 1. Project structure
 ```
